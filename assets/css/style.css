@@ -231,7 +231,7 @@ a:hover {
   margin: 20px 0 40px;
 }
 .submit-box button {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   background-image: linear-gradient(to right, #646464, #474747, #474747, #5c5c5c);
   box-shadow: 0 4px 15px 0 #47474728;
   border-radius: 50px;
