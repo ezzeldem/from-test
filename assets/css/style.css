@@ -252,7 +252,7 @@ a:hover {
   display: none;
 }
 
-button {
+.buttom-form {
   background-color: #1e35d3;
   color: #ffffff;
   border: none;
@@ -262,6 +262,11 @@ button {
   cursor: pointer;
   transition: 0.3s all ease-in-out;
   opacity: 0.9;
+  border-radius: 50px;
+}
+
+.new-buttom {
+  padding: 10px 50px;
 }
 
 button:hover {
@@ -289,5 +294,5 @@ button:hover {
 
 /* Mark the steps that are finished and valid: */
 .step.finish {
-  background-color: #4caf50;
+  background-color: #1e36d3bb;
 }
