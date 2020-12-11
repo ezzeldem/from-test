@@ -253,17 +253,19 @@ a:hover {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #1e35d3;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
   font-size: 17px;
   font-family: Raleway;
   cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  opacity: 0.9;
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 #prevBtn {
@@ -274,7 +276,7 @@ button:hover {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbbbbb;
+  background-color: #1e35d3;
   border: none;
   border-radius: 50%;
   display: inline-block;
@@ -287,5 +289,5 @@ button:hover {
 
 /* Mark the steps that are finished and valid: */
 .step.finish {
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
